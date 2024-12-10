@@ -1,0 +1,72 @@
+---
+title: "Week 11 - Recommender System"
+author: "Md Asadul Islam"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction for scenario design analysis for X.com
+
+For week 11 recommender system discussion, I have chosen to evaluate X.com For You section. X is a social media platform that is used by many people across the world. X pull people and communities across the world and then these users share information with their audience as they wish. Therefore, the platform has a recommender system on how it selects the tweets that appear on ones timeline for bot innetwork and outnetwork user content. This is what I therefore discuss and evaluate in this discussion post.
+
+## Who are x.com users?
+
+The primary users of X.com are the normal casual users, the influencers, and businesses. The secondary users of the platform are the advertisers and the marketers who use the platform for promotional and marketing purposes. The primary users form the audience base and therefore are the regular day to day users. 
+
+## What are the key goals of x.com users 
+The goals of the general or the primary users are as follows: 
+1. Discover relevant and engaging content
+2. Stay updated on news and trends
+3. Connect and interact with other users on the topics of interest
+
+The goals of advertisers and marketers are as follows: 
+1. Reach a wider audience
+2. Promote products and services effectively
+3. Engage with potential customers
+
+
+
+## How can the X.com recommender system help its users achieve their goals?
+
+The recommender system helps the general users achieve their goals through:
+1. Providing personalized tweet recommendations based on their interests and behavior.
+2. Highlighting trending and popular tweets relevant to their preferences.
+3. Surfacing content from users and topics they might not have discovered otherwise.
+
+The recommender system helps advertisers and marketers achieve their goals by:
+1. Featuring promotional content in the recommendations to relevant users.
+2. Utilizing user behavior data to target ads more effectively.
+
+## Reverse Engineering the X.com Recommender System
+
+How Tweets are Recommended in the "For You" Section
+
+The "For You" section on X.com (formerly Twitter) uses a combination of algorithms to recommend tweets. Here is a breakdown of the methods based on available information and common industry practices:
+
+1. User Behavior Analysis - Engagement Metrics: Tracking likes, retweets, replies, and shares to gauge user interests. Browsing History: Analyzing the content users spend the most time on.
+
+2. Content-Based Filtering - Keyword and Hashtag Analysis: Identifying tweets that contain keywords and hashtags of interest to the user. Topic Modeling: Using natural language processing (NLP) to categorize tweets into topics that align with user interests.
+
+3. Collaborative Filtering - User Similarity: Recommending tweets liked by users with similar engagement patterns. Social Graph Analysis: Leveraging the network of followers and followees to recommend popular tweets within the user's social circle.
+
+4. Real-Time Trends - Trending Topics: Highlighting tweets related to current trending topics. Event-Based Recommendations: Surfacing tweets related to live events and breaking news.
+
+5. Machine Learning Models - Deep Learning: Using neural networks to predict user preferences based on a vast array of features. Reinforcement Learning: Continuously improving recommendations based on user feedback and interactions. For example lowering the likelihood of tweets froms users who are blocked and also the disliked tweets.
+
+## Recommendations for improvement
+1. Enhance Contextual Relevance - Incorporate more contextual signals such as time of day, current location, and device type to tailor recommendations more precisely.
+
+2. Increase Diversity of Content - Implement mechanisms to ensure a diverse range of tweets are recommended, preventing echo chambers and promoting a broader range of viewpoints.
+
+3. Improve Explainability - Provide users with clear explanations for why specific tweets are recommended, increasing transparency and trust in the system.
+
+4. Leverage Multi-Modal Data - Utilize multimedia content (images, videos) analysis to enhance recommendations, considering that users engage differently with various content types.
+ 
+5. Optimize Real-Time Adaptation - Enhance the system’s ability to adapt to real-time changes in user behavior and global trends, ensuring the most relevant and up-to-date content is recommended.
+
+## Conclusion
+X.com is a social media app which is used by many across the worl. It is known for its professionalism, freedom of speech and the engaging content which is tailored for all users. By understanding the needs and goals of both the organization and its users, it is easy to make informed recommendations to enhance the user experience and the effectiveness of X.com's recommendation system on the type of content different users feed on.
